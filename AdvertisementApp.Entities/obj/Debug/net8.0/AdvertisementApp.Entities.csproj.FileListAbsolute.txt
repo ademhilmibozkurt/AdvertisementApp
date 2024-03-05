@@ -1,0 +1,11 @@
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\bin\Debug\net8.0\AdvertisementApp.Entities.deps.json
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\bin\Debug\net8.0\AdvertisementApp.Entities.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\bin\Debug\net8.0\AdvertisementApp.Entities.pdb
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\AdvertisementApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\AdvertisementApp.Entities.AssemblyInfoInputs.cache
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\AdvertisementApp.Entities.AssemblyInfo.cs
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\AdvertisementApp.Entities.csproj.CoreCompileInputs.cache
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\AdvertisementApp.Entities.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\refint\AdvertisementApp.Entities.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\AdvertisementApp.Entities.pdb
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\ref\AdvertisementApp.Entities.dll
