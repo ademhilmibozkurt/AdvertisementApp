@@ -19,7 +19,7 @@
     public enum ResponseType
     {
         Success,
-        NotFount,
+        NotFound,
         ValidationError
     }
 }

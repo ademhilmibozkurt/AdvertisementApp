@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "tfP7Hbcm6e/9DI01aE7RsoZ+mnXtdu1vxlPY2JtSb30Yb4EUxS2H9IsJBLsz5EzKiKYxZ2NGjl+6/lIKK1dYCw==",
+  "dgSpecHash": "4z7UE4DXW9tJvflAA9Kz/dqXLE7XPFejmTPjeyVUUzpiRxKzDLZW8qZjXBUjMZ3CbEJGWjJBPUdUKkie6JQjzA==",
   "success": true,
   "projectFilePath": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.Business\\AdvertisementApp.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bozku\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\bozku\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\bozku\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\bozku\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\bozku\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\bozku\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\bozku\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\bozku\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.4\\microsoft.data.sqlclient.5.1.4.nupkg.sha512",

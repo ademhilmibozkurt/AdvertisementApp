@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\images\\1.jpeg",
+      "PackagePath": "staticwebassets\\images\\1.jpeg"
+    },
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\themes\\startbootstrap-one-page-wonder-gh-pages\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\themes\\startbootstrap-one-page-wonder-gh-pages\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\themes\\startbootstrap-one-page-wonder-gh-pages\\assets\\img\\01.jpg",
+      "PackagePath": "staticwebassets\\themes\\startbootstrap-one-page-wonder-gh-pages\\assets\\img\\01.jpg"
+    },
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\themes\\startbootstrap-one-page-wonder-gh-pages\\assets\\img\\02.jpg",
+      "PackagePath": "staticwebassets\\themes\\startbootstrap-one-page-wonder-gh-pages\\assets\\img\\02.jpg"
+    },
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\themes\\startbootstrap-one-page-wonder-gh-pages\\assets\\img\\03.jpg",
+      "PackagePath": "staticwebassets\\themes\\startbootstrap-one-page-wonder-gh-pages\\assets\\img\\03.jpg"
+    },
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\themes\\startbootstrap-one-page-wonder-gh-pages\\css\\styles.css",
+      "PackagePath": "staticwebassets\\themes\\startbootstrap-one-page-wonder-gh-pages\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\themes\\startbootstrap-one-page-wonder-gh-pages\\index.html",
+      "PackagePath": "staticwebassets\\themes\\startbootstrap-one-page-wonder-gh-pages\\index.html"
+    },
+    {
+      "Id": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\wwwroot\\themes\\startbootstrap-one-page-wonder-gh-pages\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\themes\\startbootstrap-one-page-wonder-gh-pages\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AdvertisementApp.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AdvertisementApp.UI.props",
+      "PackagePath": "build\\AdvertisementApp.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AdvertisementApp.UI.props",
+      "PackagePath": "buildMultiTargeting\\AdvertisementApp.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AdvertisementApp.UI.props",
+      "PackagePath": "buildTransitive\\AdvertisementApp.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

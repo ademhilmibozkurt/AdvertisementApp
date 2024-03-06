@@ -17,3 +17,4 @@ D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debu
 D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net8.0\AdvertisementApp.DataAccess.pdb
 D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net8.0\AdvertisementApp.DataAccess.genruntimeconfig.cache
 D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net8.0\ref\AdvertisementApp.DataAccess.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.DataAccess\obj\Debug\net8.0\AdvertisementApp.DataAccess.sourcelink.json

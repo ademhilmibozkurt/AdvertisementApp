@@ -1,0 +1,12 @@
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\bin\Debug\net8.0\AdvertisementApp.Dtos.deps.json
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\bin\Debug\net8.0\AdvertisementApp.Dtos.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\bin\Debug\net8.0\AdvertisementApp.Dtos.pdb
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net8.0\AdvertisementApp.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net8.0\AdvertisementApp.Dtos.AssemblyInfoInputs.cache
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net8.0\AdvertisementApp.Dtos.AssemblyInfo.cs
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net8.0\AdvertisementApp.Dtos.csproj.CoreCompileInputs.cache
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net8.0\AdvertisementApp.Dtos.sourcelink.json
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net8.0\AdvertisementApp.Dtos.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net8.0\refint\AdvertisementApp.Dtos.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net8.0\AdvertisementApp.Dtos.pdb
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net8.0\ref\AdvertisementApp.Dtos.dll

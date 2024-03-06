@@ -1,22 +1,12 @@
-using AdvertisementApp.Business.DependencyResolvers.Microsoft;
+var builder = WebApplication.CreateBuilder(args);
 
-public class Program
-{   
-    // static error
-    public static IConfiguration Configuration { get; set; }
-    public Program(IConfiguration configuration)
-    {
-        Configuration = configuration;
-    }
-    
-    private static void Main(string[] args)
-    {
-        var builder = WebApplication.CreateBuilder(args);
+// builder.Services.AddDependencies(configuration);
+builder.Services.AddControllersWithViews();
 
-        builder.Services.AddDependencies(Configuration);
+var app = builder.Build();
 
-        var app = builder.Build();
+app.UseStaticFiles();
+app.UseRouting();
+app.MapDefaultControllerRoute();
 
-        app.Run();
-    }
-}
+app.Run();

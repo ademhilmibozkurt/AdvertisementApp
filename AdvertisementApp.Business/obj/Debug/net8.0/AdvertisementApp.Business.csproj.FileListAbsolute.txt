@@ -17,3 +17,6 @@ D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Business\obj\Debug\
 D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Business\obj\Debug\net8.0\refint\AdvertisementApp.Business.dll
 D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Business\obj\Debug\net8.0\AdvertisementApp.Business.pdb
 D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Business\obj\Debug\net8.0\ref\AdvertisementApp.Business.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Business\bin\Debug\net8.0\AdvertisementApp.Dtos.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Business\bin\Debug\net8.0\AdvertisementApp.Dtos.pdb
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Business\obj\Debug\net8.0\AdvertisementApp.Business.sourcelink.json

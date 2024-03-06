@@ -9,3 +9,4 @@ D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\
 D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\refint\AdvertisementApp.Entities.dll
 D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\AdvertisementApp.Entities.pdb
 D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\ref\AdvertisementApp.Entities.dll
+D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.Entities\obj\Debug\net8.0\AdvertisementApp.Entities.sourcelink.json

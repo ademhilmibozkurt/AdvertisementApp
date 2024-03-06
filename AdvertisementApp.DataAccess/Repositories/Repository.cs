@@ -44,7 +44,7 @@ namespace AdvertisementApp.DataAccess.Repositories
 
 
         // find by id
-        public async Task<T?> Find(object id)
+        public async Task<T> FindAsync(object id)
         {
             return await _context.Set<T>().FindAsync(id);
         }
