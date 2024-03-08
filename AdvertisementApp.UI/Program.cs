@@ -1,6 +1,8 @@
+using AdvertisementApp.Business.DependencyResolvers.Microsoft;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// builder.Services.AddDependencies(configuration);
+builder.Services.AddDependencies();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
