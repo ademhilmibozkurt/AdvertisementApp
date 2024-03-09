@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdvertisementApp.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb6842c16b98fbaa1abf6b71f39822b89b74b480")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14a0e30b552768f39c2d20dfb3890f3c95779ddb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdvertisementApp.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdvertisementApp.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

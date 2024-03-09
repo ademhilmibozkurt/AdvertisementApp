@@ -26,12 +26,12 @@
                         <div>
                         @if (User.Identity.IsAuthenticated)
                         {
-                                <a> Başvur </a>
+                                <a asp-action="SendAppeal" asp-controller="Advertisement"> Başvur </a>
                         }
                         else
                         {
                             <div class="alert alert-light text-center">
-                                 Başvuru yapabilmeniz için giriş yapmanız veya kayıt olmanız gerekmektedir. <a> Kayıt Ol </a>
+                                 Başvuru yapabilmeniz için giriş yapmanız gerekmektedir. <a asp-action="SignIn" asp-controller="Account"> Giriş Yap </a>
                             </div>
                         }
                         </div>

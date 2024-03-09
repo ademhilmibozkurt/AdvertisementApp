@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\projects\C#\Asp.NetCore\AdvertisementApp\AdvertisementApp.UI
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/projects/C\#/Asp.NetCore/AdvertisementApp/AdvertisementApp.UI/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/projects/C\#/Asp.NetCore/AdvertisementApp/AdvertisementApp.UI/Views/Account/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/projects/C\#/Asp.NetCore/AdvertisementApp/AdvertisementApp.UI/Views/Account/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/projects/C\#/Asp.NetCore/AdvertisementApp/AdvertisementApp.UI/Views/Home/HumanResource.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIdW1hblJlc291cmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

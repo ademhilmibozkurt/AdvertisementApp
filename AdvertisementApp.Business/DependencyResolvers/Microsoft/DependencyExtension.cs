@@ -11,6 +11,7 @@ using AdvertisementApp.Business.Interfaces;
 using AdvertisementApp.Business.Services;
 using AdvertisementApp.Dtos.AdvertisementDtos;
 using AdvertisementApp.Dtos.AppUserDtos;
+using AdvertisementApp.Dtos.GenderDtos;
 
 namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
 {
@@ -27,17 +28,20 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
                 opt.UseSqlServer("server = (localdb)\\mssqllocaldb; database = AdvertisementAppDb; integrated security = true;");
             });
 
-            var mapperConfiguration = new MapperConfiguration(opt =>
-            {
-                opt.AddProfile(new ProvidedServiceProfile());
-                opt.AddProfile(new AdvertisementProfile());
-                opt.AddProfile(new AppUserProfile());
-            });
 
-            var mapper = mapperConfiguration.CreateMapper();
+            //var mapperConfiguration = new MapperConfiguration(opt =>
+            //{
+            //    opt.AddProfile(new ProvidedServiceProfile());
+            //    opt.AddProfile(new AdvertisementProfile());
+            //    opt.AddProfile(new AppUserProfile());
+            //    opt.AddProfile(new GenderProfile());
+            //});
 
-            services.AddSingleton(mapper);
+            //var mapper = mapperConfiguration.CreateMapper();
+
+            //services.AddSingleton(mapper);
             
+
             // add interface dependency
             services.AddScoped<IUow, Uow>();
 
@@ -48,10 +52,14 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
             services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
             services.AddTransient<IValidator<AppUserCreateDto>, AppUserCreateDtoValidator>();
             services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateDtoValidator>();
+            services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateDtoValidator>();
+            services.AddTransient<IValidator<GenderCreateDto>, GenderCreateDtoValidator>();
+            services.AddTransient<IValidator<AppUserLoginDto>, AppUserLoginDtoValidator>();
 
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
             services.AddScoped<IAdvertisementService, AdvertisementService>();
             services.AddScoped<IAppUserService, AppUserService>();
+            services.AddScoped<IGenderService, GenderService>();
         }
     }
 }
