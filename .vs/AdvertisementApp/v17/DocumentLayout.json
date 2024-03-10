@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|d:\\projects\\c#\\asp.netcore\\advertisementapp\\advertisementapp.ui\\views\\home\\humanresource.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|solutionrelative:advertisementapp.ui\\views\\home\\humanresource.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|d:\\projects\\c#\\asp.netcore\\advertisementapp\\advertisementapp.ui\\views\\advertisement\\sendappeal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|solutionrelative:advertisementapp.ui\\views\\advertisement\\sendappeal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|d:\\projects\\c#\\asp.netcore\\advertisementapp\\advertisementapp.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|solutionrelative:advertisementapp.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|d:\\projects\\c#\\asp.netcore\\advertisementapp\\advertisementapp.ui\\controllers\\advertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|solutionrelative:advertisementapp.ui\\controllers\\advertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|d:\\projects\\c#\\asp.netcore\\advertisementapp\\advertisementapp.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|solutionrelative:advertisementapp.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5516EA6-5306-4FAD-BE91-067CBD36E74C}|AdvertisementApp.Business\\AdvertisementApp.Business.csproj|d:\\projects\\c#\\asp.netcore\\advertisementapp\\advertisementapp.business\\services\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5516EA6-5306-4FAD-BE91-067CBD36E74C}|AdvertisementApp.Business\\AdvertisementApp.Business.csproj|solutionrelative:advertisementapp.business\\services\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HumanResource.cshtml",
-              "DocumentMoniker": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Views\\Home\\HumanResource.cshtml",
-              "RelativeDocumentMoniker": "AdvertisementApp.UI\\Views\\Home\\HumanResource.cshtml",
-              "ToolTip": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Views\\Home\\HumanResource.cshtml",
-              "RelativeToolTip": "AdvertisementApp.UI\\Views\\Home\\HumanResource.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAABYAAAA",
+              "Title": "SendAppeal.cshtml",
+              "DocumentMoniker": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Views\\Advertisement\\SendAppeal.cshtml",
+              "RelativeDocumentMoniker": "AdvertisementApp.UI\\Views\\Advertisement\\SendAppeal.cshtml",
+              "ToolTip": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Views\\Advertisement\\SendAppeal.cshtml",
+              "RelativeToolTip": "AdvertisementApp.UI\\Views\\Advertisement\\SendAppeal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T19:28:40.902Z",
+              "WhenOpened": "2024-03-10T11:02:19.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AdvertisementApp.UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AdvertisementApp.UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAB5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T19:17:33.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppUserService.cs",
-              "DocumentMoniker": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.Business\\Services\\AppUserService.cs",
-              "RelativeDocumentMoniker": "AdvertisementApp.Business\\Services\\AppUserService.cs",
-              "ToolTip": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.Business\\Services\\AppUserService.cs",
-              "RelativeToolTip": "AdvertisementApp.Business\\Services\\AppUserService.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAwwFcAAAAJAAAA",
+              "Title": "AdvertisementController.cs",
+              "DocumentMoniker": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Controllers\\AdvertisementController.cs",
+              "RelativeDocumentMoniker": "AdvertisementApp.UI\\Controllers\\AdvertisementController.cs",
+              "ToolTip": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Controllers\\AdvertisementController.cs",
+              "RelativeToolTip": "AdvertisementApp.UI\\Controllers\\AdvertisementController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T18:51:21.656Z",
+              "WhenOpened": "2024-03-10T11:15:02.532Z",
               "EditorCaption": ""
             },
             {

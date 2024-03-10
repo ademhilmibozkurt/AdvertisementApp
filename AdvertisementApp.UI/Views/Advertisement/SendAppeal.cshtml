@@ -1,0 +1,64 @@
+﻿@model AdvertisementAppUserCreateModel 
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<form class="w-25 mx-auto p-3" asp-action="SendAppeal" asp-controller="Advertisement" method="post" enctype="/multipart/form-data">
+    <input type="hidden" asp-for="@Model.AdvertisementId" />
+    <input type="hidden" asp-for="@Model.AppUserId" />
+
+    @if(ViewBag.GenderId == (int)GenderType.Erkek)
+    {
+        <div class="mb-3">
+            <label> Askerlik Durumu: </label>
+            <select onchange="setInputVisibility()" asp-for="@Model.MilitaryStatusId" asp-items="@ViewBag.MilitaryStatus" class="form-select"> </select>
+        </div>
+
+        <div id="endDateDiv" class="mb-3" style="visibility:hidden">
+            <label> Tecil Tarihi </label>
+            <input type="date" asp-for="@Model.EndDate" class="form-control"/>
+        </div>
+    }
+    else
+    {
+        <input type="hidden" asp-for="@Model.MilitaryStatusId" value="@((int)MilitaryStatusType.Muaf)"/>
+    }
+    
+    <div class="mb-3"">
+        <label> İş Deneyiminiz(yıl): </label>
+        <input type="number" asp-for="@Model.WorkExperience"/>
+    </div>
+    
+    <div class="mb-3">
+        <label> CV: </label>
+        <input type="file" asp-for="@Model.CvFile" class="form-control"/>
+    </div>
+    
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary"> Kaydet </button>
+    </div>
+
+</form>
+
+<!-- js code for Askerlik Durumu. Is Tecilli then show to user for set end date block -->
+@section script{
+    <script>
+        function setInputVisibility()
+        {
+            var selectElement = document.getElementById("MilitaryStatusId");
+            var militaryStatusId = selectElement.value;
+
+            var endDateDivElement = document.getElementById("endDateDiv");
+
+            if(militaryStatusId == 2)
+            {
+                endDateDivElement.style.visibility = "visible";
+            }
+            else 
+            {
+                endDateDivElement.style.visibility = "hidden";
+            }
+        }
+    </script>
+}
