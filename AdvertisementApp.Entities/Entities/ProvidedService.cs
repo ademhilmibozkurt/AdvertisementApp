@@ -1,6 +1,7 @@
 ﻿
 namespace AdvertisementApp.Entities.Entities
 {
+    // service for additional processes
     public class ProvidedService : BaseEntity
     {
         public string Title { get; set; }

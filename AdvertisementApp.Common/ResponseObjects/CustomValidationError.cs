@@ -1,5 +1,4 @@
-﻿
-namespace AdvertisementApp.Common.ResponseObjects
+﻿namespace AdvertisementApp.Common.ResponseObjects
 {
     public class CustomValidationError
     {

@@ -6,6 +6,7 @@ using AdvertisementApp.DataAccess.UnitOfWork;
 using AdvertisementApp.Dtos.Interfaces;
 using AdvertisementApp.Entities.Entities;
 using AdvertisementApp.Business.Extensions;
+using AdvertisementApp.Common.Enums;
 
 namespace AdvertisementApp.Business.Services
 {

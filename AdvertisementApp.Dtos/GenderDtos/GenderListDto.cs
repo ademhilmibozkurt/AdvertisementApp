@@ -2,6 +2,7 @@
 
 namespace AdvertisementApp.Dtos.GenderDtos
 {
+    // Gender entity's dto for listing Gender
     public class GenderListDto : IDto
     {
         public int Id { get; set; }

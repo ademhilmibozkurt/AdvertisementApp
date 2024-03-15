@@ -19,7 +19,7 @@
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <nav class="navbar navbar-expand-lg @(User.Identity.IsAuthenticated && User.IsInRole("Admin")? "navbar-dark bg-danger":"navbar-dark navbar-custom")">
         <div class="container px-5">
             <a class="navbar-brand" href="#page-top"> Atom Yazılım </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -28,8 +28,6 @@
                     @{
                         if(User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-item"><a class="nav-link" asp-action="LogOut" asp-controller="Account"> Çıkış Yap </a></li>
-                            
                             if(User.IsInRole("Member"))
                             {
                                 <li class="nav-item"><a class="nav-link" asp-action="HumanResource" asp-controller="Home"> İnsan Kaynakları </a></li>
@@ -37,8 +35,11 @@
 
                             if (User.IsInRole("Admin"))
                             {
-                                <li class="nav-item"><a class="nav-link" asp-action="Index" asp-controller="Advertisement"> İş İlanları </a></li>
+                                <li class="nav-item"><a class="nav-link" asp-action="List" asp-controller="Advertisement"> Başvurular </a></li>
+                                <li class="nav-item"><a class="nav-link" asp-action="List" asp-controller="Application"> İş İlanları </a></li>
                             }
+
+                            <li class="nav-item"><a class="nav-link" asp-action="LogOut" asp-controller="Account"> Çıkış Yap </a></li>
                         }
                         else
                         {

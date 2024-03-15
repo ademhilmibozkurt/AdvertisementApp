@@ -1,5 +1,6 @@
 ﻿namespace AdvertisementApp.Entities.Entities
 {
+    // specific program user
     public class AppUser : BaseEntity
     {
         public string FirstName { get; set; }

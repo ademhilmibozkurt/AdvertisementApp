@@ -3,9 +3,12 @@ using AdvertisementApp.Entities.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace AdvertisementApp.DataAccess.Contexts
-{
+{   
+    // Advertisement is a DbContext's child class for programs data access processes
     public class AdvertisementContext : DbContext
     {
+        // Database sets for specific objects
+        // dbset is collection of all entities in context
         public DbSet<Advertisement> Advertisements { get; set; }
         public DbSet<AdvertisementAppUser> AdvertisementAppUsers { get; set; }
         public DbSet<AdvertisementAppUserStatus> AdvertisementAppUserStatuses { get; set; }
@@ -16,12 +19,13 @@ namespace AdvertisementApp.DataAccess.Contexts
         public DbSet<MilitaryStatus> MilitaryStatuses { get; set; }
         public DbSet<ProvidedService> ProvidedServices { get; set; }
 
-
+        // constructor. base class takes AdvertisementContext options
         public AdvertisementContext(DbContextOptions<AdvertisementContext> options) : base(options)
         {
             
         }
 
+        // which configuration files runs on model during creating
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new AdvertisementAppUserConfiguration());

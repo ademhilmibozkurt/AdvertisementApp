@@ -4,7 +4,7 @@
     Layout = "/Views/Shared/_Layout.cshtml";
 }
 
-<form class="w-25 mx-auto p-3" asp-action="SendAppeal" asp-controller="Advertisement" method="post" enctype="/multipart/form-data">
+<form class="w-25 mx-auto p-3" asp-action="SendAppeal" asp-controller="Advertisement" method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="@Model.AdvertisementId" />
     <input type="hidden" asp-for="@Model.AppUserId" />
 
@@ -15,7 +15,7 @@
             <select onchange="setInputVisibility()" asp-for="@Model.MilitaryStatusId" asp-items="@ViewBag.MilitaryStatus" class="form-select"> </select>
         </div>
 
-        <div id="endDateDiv" class="mb-3" style="visibility:hidden">
+        <div id="endDateDiv" class="mb-3" style="display:none">
             <label> Tecil Tarihi </label>
             <input type="date" asp-for="@Model.EndDate" class="form-control"/>
         </div>
@@ -39,11 +39,13 @@
         <button type="submit" class="btn btn-primary"> Kaydet </button>
     </div>
 
+    <div asp-validation-summary="All" class="text-danger"></div>
 </form>
 
 <!-- js code for Askerlik Durumu. Is Tecilli then show to user for set end date block -->
 @section script{
     <script>
+        setInputVisibility()
         function setInputVisibility()
         {
             var selectElement = document.getElementById("MilitaryStatusId");
@@ -53,11 +55,11 @@
 
             if(militaryStatusId == 2)
             {
-                endDateDivElement.style.visibility = "visible";
+                endDateDivElement.style.display = "block";
             }
             else 
             {
-                endDateDivElement.style.visibility = "hidden";
+                endDateDivElement.styledisplay = "none";
             }
         }
     </script>

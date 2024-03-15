@@ -1,6 +1,8 @@
-﻿
+﻿using AdvertisementApp.Common.Enums;
+
 namespace AdvertisementApp.Common.ResponseObjects
 {
+    // generic response returner. implements IResponse interface
     public class Response<T> : Response, IResponse<T>
     {
         public T Data {  get; set; }

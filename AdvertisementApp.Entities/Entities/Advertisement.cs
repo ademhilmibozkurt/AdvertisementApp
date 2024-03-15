@@ -1,5 +1,6 @@
 ﻿namespace AdvertisementApp.Entities.Entities
 {
+    // advertisement entity properties for job proclamation
     public class Advertisement : BaseEntity
     {
         public string Title { get; set; }

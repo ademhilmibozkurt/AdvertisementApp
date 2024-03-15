@@ -2,6 +2,7 @@
 
 namespace AdvertisementApp.Dtos.AdvertisementDtos
 {
+    // Advertisement entity's dto for createing new objects
     public class AdvertisementCreateDto : IDto
     {
         public string Title { get; set; }

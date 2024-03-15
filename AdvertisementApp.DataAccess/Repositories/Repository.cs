@@ -7,10 +7,13 @@ using System.Linq.Expressions;
 
 namespace AdvertisementApp.DataAccess.Repositories
 {
+    // database CRUD operations are here
     public class Repository<T> : IRepository<T> where T: BaseEntity
     {
+        // instance of context
         private readonly AdvertisementContext _context;
 
+        // dependency injection
         public Repository(AdvertisementContext context)
         {
             _context = context;
@@ -49,7 +52,8 @@ namespace AdvertisementApp.DataAccess.Repositories
             return await _context.Set<T>().FindAsync(id);
         }
 
-        public async Task<T?> GetByFilter(Expression<Func<T, bool>> filter, bool asNoTracking = false)
+        // get filter base on  filter Expression. check as no tracking
+        public async Task<T> GetByFilter(Expression<Func<T, bool>> filter, bool asNoTracking = false)
         {
             return !asNoTracking ? await _context.Set<T>().AsNoTracking().SingleOrDefaultAsync(filter) :
                                    await _context.Set<T>().SingleOrDefaultAsync(filter);

@@ -5,6 +5,7 @@ namespace AdvertisementApp.Business.Helpers
 {
     public static class ProfileHelper
     {
+        // create instances of profile classes
         public static List<Profile> GetProfiles()
         {
             return new List<Profile>
@@ -13,7 +14,10 @@ namespace AdvertisementApp.Business.Helpers
                 new AdvertisementProfile(),
                 new AppUserProfile(),
                 new GenderProfile(),
-                new AppRoleProfile()
+                new AppRoleProfile(),
+                new AdvertisementAppUserProfile(),
+                new AdvertisementAppUserStatusProfile(),
+                new MilitaryStatusProfile(),
             };
         }
     }

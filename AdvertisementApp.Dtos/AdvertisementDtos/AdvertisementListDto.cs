@@ -2,6 +2,7 @@
 
 namespace AdvertisementApp.Dtos.AdvertisementDtos
 {
+    // Advertisement entity's dto for listing objects
     public class AdvertisementListDto : IDto
     {
         public int Id { get; set; }

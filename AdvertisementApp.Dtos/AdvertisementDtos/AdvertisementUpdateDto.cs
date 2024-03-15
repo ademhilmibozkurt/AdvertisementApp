@@ -2,6 +2,7 @@
 
 namespace AdvertisementApp.Dtos.AdvertisementDtos
 {
+    // Advertisement entity's dto for updating existed object
     public class AdvertisementUpdateDto : IUpdateDto
     {
         public int Id { get; set; }

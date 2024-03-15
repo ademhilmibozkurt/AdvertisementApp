@@ -2,6 +2,7 @@
 
 namespace AdvertisementApp.Dtos.AppUserDtos
 {
+    // AppUser entity's dto for updating existed object
     public class AppUserUpdateDto : IUpdateDto
     {
         public int Id { get ; set; }

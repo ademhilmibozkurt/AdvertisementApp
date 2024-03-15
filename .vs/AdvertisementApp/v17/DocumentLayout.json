@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|d:\\projects\\c#\\asp.netcore\\advertisementapp\\advertisementapp.ui\\views\\advertisement\\sendappeal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|solutionrelative:advertisementapp.ui\\views\\advertisement\\sendappeal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|d:\\projects\\c#\\asp.netcore\\advertisementapp\\advertisementapp.ui\\controllers\\advertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|solutionrelative:advertisementapp.ui\\controllers\\advertisementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|d:\\projects\\c#\\asp.netcore\\advertisementapp\\advertisementapp.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C978B12-FFCD-4EA4-9FD5-A5AD678F3549}|AdvertisementApp.UI\\AdvertisementApp.UI.csproj|solutionrelative:advertisementapp.ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,46 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SendAppeal.cshtml",
-              "DocumentMoniker": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Views\\Advertisement\\SendAppeal.cshtml",
-              "RelativeDocumentMoniker": "AdvertisementApp.UI\\Views\\Advertisement\\SendAppeal.cshtml",
-              "ToolTip": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Views\\Advertisement\\SendAppeal.cshtml",
-              "RelativeToolTip": "AdvertisementApp.UI\\Views\\Advertisement\\SendAppeal.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-10T11:02:19.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdvertisementController.cs",
-              "DocumentMoniker": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Controllers\\AdvertisementController.cs",
-              "RelativeDocumentMoniker": "AdvertisementApp.UI\\Controllers\\AdvertisementController.cs",
-              "ToolTip": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Controllers\\AdvertisementController.cs",
-              "RelativeToolTip": "AdvertisementApp.UI\\Controllers\\AdvertisementController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowDwAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T11:15:02.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "AdvertisementApp.UI\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\projects\\C#\\Asp.NetCore\\AdvertisementApp\\AdvertisementApp.UI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "AdvertisementApp.UI\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAmwGUAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T18:33:30.235Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

@@ -1,6 +1,7 @@
 ﻿
 namespace AdvertisementApp.Entities.Entities
 {
+    // applications "user" properties for advertisement
     public class AdvertisementAppUser : BaseEntity
     {
         // foreign key - navigation property

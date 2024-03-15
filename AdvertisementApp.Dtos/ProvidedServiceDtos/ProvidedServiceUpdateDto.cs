@@ -2,6 +2,7 @@
 
 namespace AdvertisementApp.Dtos.ProvidedServiceDtos
 {
+    // ProvidedService entity's data transfer objects for update existed ProvidedService
     public class ProvidedServiceUpdateDto : IUpdateDto
     {
         public int Id { get; set; }

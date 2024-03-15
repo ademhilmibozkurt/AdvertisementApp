@@ -1,7 +1,9 @@
-﻿using AdvertisementApp.Dtos.Interfaces;
+﻿using AdvertisementApp.Dtos.GenderDtos;
+using AdvertisementApp.Dtos.Interfaces;
 
 namespace AdvertisementApp.Dtos.AppUserDtos
 {
+    // AppUser entity's dto for listing objects 
     public class AppUserListDto : IDto
     {
         public int Id { get; set; }
@@ -16,5 +18,8 @@ namespace AdvertisementApp.Dtos.AppUserDtos
         public string PhoneNumber { get; set; }
 
         public int GenderId { get; set; }
+
+        // navigation property 
+        public GenderListDto Gender { get; set; }
     }
 }

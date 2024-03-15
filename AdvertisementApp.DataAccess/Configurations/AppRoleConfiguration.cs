@@ -10,6 +10,7 @@ namespace AdvertisementApp.DataAccess.Configurations
         {
             builder.Property(x => x.Definition).HasMaxLength(300).IsRequired();
 
+            // set starter data to db
             builder.HasData(new AppRole[]
             {
                 new(){ Id = 1, Definition = "Admin"},

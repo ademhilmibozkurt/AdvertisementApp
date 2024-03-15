@@ -1,5 +1,8 @@
-﻿namespace AdvertisementApp.Common.ResponseObjects
+﻿using AdvertisementApp.Common.Enums;
+
+namespace AdvertisementApp.Common.ResponseObjects
 {
+    // response returner. implements IResponse interface
     public class Response : IResponse
     {
         public string Message { get; set; }
@@ -15,11 +18,5 @@
             Message = message;
             ResponseType = responseType;
         }
-    }
-    public enum ResponseType
-    {
-        Success,
-        NotFound,
-        ValidationError
     }
 }

@@ -4,6 +4,7 @@ using System.Linq.Expressions;
 
 namespace AdvertisementApp.DataAccess.Interfaces
 {
+    // interface for database CRUD operation container class
     public interface IRepository<T> where T : BaseEntity
     {
         Task<List<T>> GetAllAsync();

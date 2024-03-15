@@ -2,6 +2,7 @@
 
 namespace AdvertisementApp.Dtos.AppUserDtos
 {
+    // AppUser entity's dto for login process 
     public class AppUserLoginDto : IDto
     {
         public string UserName { get; set;}

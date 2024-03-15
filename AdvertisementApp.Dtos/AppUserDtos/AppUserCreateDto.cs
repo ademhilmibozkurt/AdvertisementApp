@@ -2,6 +2,7 @@
 
 namespace AdvertisementApp.Dtos.AppUserDtos
 {
+    // AppUser entity's dto for createing new AppUser
     public class AppUserCreateDto : IDto
     {
         public string FirstName { get; set; }

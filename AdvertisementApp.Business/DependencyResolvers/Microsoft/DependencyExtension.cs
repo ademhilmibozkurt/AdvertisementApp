@@ -6,12 +6,12 @@ using Microsoft.Extensions.DependencyInjection;
 using AdvertisementApp.DataAccess.UnitOfWork;
 using AdvertisementApp.Dtos.ProvidedServiceDtos;
 using AdvertisementApp.Business.ValidationRules.FluentValidation;
-using AdvertisementApp.Business.Mappings.AutoMapper;
 using AdvertisementApp.Business.Interfaces;
 using AdvertisementApp.Business.Services;
 using AdvertisementApp.Dtos.AdvertisementDtos;
 using AdvertisementApp.Dtos.AppUserDtos;
 using AdvertisementApp.Dtos.GenderDtos;
+using AdvertisementApp.Dtos.AdvertisementAppUserDtos;
 
 namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
 {
@@ -28,21 +28,7 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
                 opt.UseSqlServer("server = (localdb)\\mssqllocaldb; database = AdvertisementAppDb; integrated security = true;");
             });
 
-
-            //var mapperConfiguration = new MapperConfiguration(opt =>
-            //{
-            //    opt.AddProfile(new ProvidedServiceProfile());
-            //    opt.AddProfile(new AdvertisementProfile());
-            //    opt.AddProfile(new AppUserProfile());
-            //    opt.AddProfile(new GenderProfile());
-            //});
-
-            //var mapper = mapperConfiguration.CreateMapper();
-
-            //services.AddSingleton(mapper);
-            
-
-            // add interface dependency
+            // add interface dependencies
             services.AddScoped<IUow, Uow>();
 
             // add validator interface dependencies
@@ -55,11 +41,14 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
             services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateDtoValidator>();
             services.AddTransient<IValidator<GenderCreateDto>, GenderCreateDtoValidator>();
             services.AddTransient<IValidator<AppUserLoginDto>, AppUserLoginDtoValidator>();
+            services.AddTransient<IValidator<AdvertisementAppUserCreateDto>, AdvertisementAppUserCreateDtoValidator>();
 
+            // add service interface dependencies
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
             services.AddScoped<IAdvertisementService, AdvertisementService>();
             services.AddScoped<IAppUserService, AppUserService>();
             services.AddScoped<IGenderService, GenderService>();
+            services.AddScoped<IAdvertisementAppUserService, AdvertisementAppUserService>(); 
         }
     }
 }

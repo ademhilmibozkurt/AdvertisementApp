@@ -1,5 +1,6 @@
 ﻿namespace AdvertisementApp.Entities.Entities
 {
+    // user roles
     public class AppUserRole : BaseEntity
     {
         public int AppUserId { get; set; }
